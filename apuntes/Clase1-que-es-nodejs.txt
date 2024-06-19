@@ -1,0 +1,27 @@
+¿Qué es NodeJS?
+Es un entorno de ejecución de JavaScript fuera del navegador.
+Se creo en 2009, orientado a servidores. 
+-------------------------------------------------------------
+¿Fuera del navegador?
+- Servidores
+- Herramientas: Transpiladores, scraping, automatización...
+-------------------------------------------------------------
+Concurrencia
+Monohilo, con entradas y salidas asincronas.
+Un proceso por cada nucleo del procesador.
+-------------------------------------------------------------
+Motor V8
+Entorno de ejecución de JS creado por Google, y lobre desde
+2008. Exrito en C++.
+Convierte JS en código de maquina en lugar de interpretarlo
+en tiempo real.
+-------------------------------------------------------------
+Módulos
+Todo lo que no sea sintaxis de programación, son módulos.
+Muchos modulos vienen por defecto en el paquete de node.
+Puedo crear mis propios modulos.
+-------------------------------------------------------------
+Orientado a eventos
+Hay un bucle de eventos que se ejecuta constantemente.
+Puedo orientar el codigo a una forma reactiva.
+-------------------------------------------------------------
