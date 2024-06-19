@@ -1,0 +1,12 @@
+EventLoop: Asincronía por diseño
+Un proceso con un buvle que gestiona, de forma
+asíncrona, todos los eventos de la aplicación.
+-------------------------------------------------------------
+Event Queue: Contiene todos los eventos que se generan por 
+nuestro código (Funciones, peticiones, etc.), estos eventos 
+quedan en una cola que van pasando uno a uno al Event Loop.
+-------------------------------------------------------------
+Thread Pool: Se encarga de gestionar los eventos de 
+forma asíncrona. Una vez terminado lo devuelve al Event 
+Loop. El Event Loop vera si lo pasa a Event Queue o no
+-------------------------------------------------------------
